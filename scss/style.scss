@@ -38,3 +38,17 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+@import 
+"c-nav-main";
+
+//header
+.w-home {
+ background: url("../images/erase-1.jpg") no-repeat center top transparent;
+ background-size: cover;
+  height: 600px;
+  .contain-to-grid {
+    background: url("../images/transparent.png") repeat 0 0 transparent;
+    overflow: hidden;
+  }
+}
