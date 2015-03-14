@@ -36,15 +36,18 @@ line-height: rem-calc(73) !important;
   overflow: visible !important;
 .top-bar {
   top: 0 !important;
+  z-index: 1;
 }
 .lang {
   top: 0 !important;
+  z-index: 2;
 }
 .logo {
     padding-left: 2% !important;
     text-align: left !important;
     top: 34px !important;
     width: auto !important;
+    z-index: 3;
 }
 }
 }
@@ -56,12 +59,12 @@ line-height: rem-calc(73) !important;
     width: 50%;
     position: relative;
     top: 15px;
-      
+      z-index: 3;
     }
     .top-bar {
         position: relative;
        top: -27px;
-    z-index: 3;
+    z-index: 1;
     float: right;
     width: 100%;
     .top-bar-section {
@@ -73,6 +76,7 @@ float: left;
     left: 10px;
      position: absolute;
     top: 27px;
+    z-index: 2;
     }
   }
    .c-nav__main  .top-bar.expanded .top-bar-section ul li > a {
