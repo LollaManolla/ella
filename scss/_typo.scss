@@ -1,0 +1,38 @@
+h1 {
+
+}
+
+h2.heading-category {
+  font-size: rem-calc(24);
+  line-height: rem-calc(32);
+  font-weight: 400;
+  color: $black;
+  text-transform: uppercase;
+}
+
+h3.heading-category-subtitle {
+  font-size: rem-calc(14);
+  font-family: $slab;
+  font-weight: 200;
+  color: $white;
+  background-color: $red;
+   padding: 5px 10px;
+   display: inline-block;
+}
+
+a {
+  color: $red;
+  &:hover, &:active, &:focus {
+    color: $black;
+    -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  }
+
+}
+
+p {
+  margin: 1.25rem 0;
+}

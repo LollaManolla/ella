@@ -98,18 +98,19 @@ $slab:  "Roboto Slab", serif;
 // $font-weight-bold: bold;
 
 $white       : #FFFFFF;
+$gray     : #777777;
 $gray-pale       : #f7f7f7;
-// $snow        : #F9F9F9;
-// $vapor       : #F6F6F6;
-// $white-smoke : #F5F5F5;
-// $silver      : #EFEFEF;
+$gray-light       : #f2f2f2;
+$gray-middle       : #dedde2;
+$gray-smoke : #eeeeee;
+$border :#979797;
 // $smoke       : #EEEEEE;
 // $gainsboro   : #DDDDDD;
 // $iron        : #CCCCCC;
 // $base        : #AAAAAA;
 // $aluminum    : #999999;
 // $jumbo       : #888888;
-$gray     : #777777;
+
 // $steel       : #666666;
 // $charcoal    : #555555;
 // $tuatara     : #444444;
@@ -387,7 +388,7 @@ $body-font-family: $roboto;
 // @if $align-block-grid-to-grid {$block-grid-default-spacing: $column-gutter;}
 
 // Enables media queries for block-grid classes. Set to false if writing semantic HTML.
-// $block-grid-media-queries: true;
+$block-grid-media-queries: false;
 
 // 04. Breadcrumbs
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -637,7 +638,7 @@ $body-font-family: $roboto;
 // $input-font-size: rem-calc(14);
 // $input-bg-color: $white;
 // $input-focus-bg-color: scale-color($white, $lightness: -2%);
-// $input-border-color: scale-color($white, $lightness: -20%);
+ $input-border-color: $border;
 // $input-focus-border-color: scale-color($white, $lightness: -40%);
 // $input-border-style: solid;
 // $input-border-width: 1px;

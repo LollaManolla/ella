@@ -1,0 +1,44 @@
+footer {
+  background-color: $gray-light;
+  margin-top: 75px;
+  padding: 60px 0 0 0;
+  .w-icon {
+  display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+    .fa-circle {
+      position: relative;
+      color: $gray-middle;
+    }
+    .fa-envelope-o, .fa-phone {
+      position: absolute;
+      left: 24%;
+      top: 33%;
+      color: $red;
+    }
+    .fa-phone {
+      left: 28%;
+      top: 35%;
+    }
+  }
+  form {
+    label {
+    font-weight: lighter;
+  }
+  button {
+    background-color: $red;
+    @include radius;
+  }
+  }
+  .w-copyright {
+    background-color: $gray-smoke;
+    margin-top: 80px;
+    border-top: solid 1px #eaeaea;
+    p {
+      text-transform: uppercase;
+      font-weight: lighter;
+      margin: 10px 0;
+    }
+  }
+}

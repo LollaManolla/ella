@@ -40,38 +40,9 @@
 //   "foundation/components/visibility";
 
 @import 
-"c-nav-main";
+"typo",
+"components",
+"homepage",
+"footer";
 
-//header
-.w-home {
- background: url("../images/erase-1.jpg") no-repeat center top transparent;
- background-size: cover;
 
-  .contain-to-grid {
-    background: url("../images/transparent.png") repeat 0 0 transparent;
-    overflow: hidden;
-  }
-  .slogan {
-    display: table-cell;
-    vertical-align: middle;
-    font-weight: 200;
-    font-size: rem-calc(60);
-    text-transform: uppercase;
-    color: $black;
-
-    line-height: rem-calc(80);
-    margin: 0; 
-    padding: 50% 0;
-    .slogan__bgcolor {
-          background-color: $white;
-          color: $black;
-           display: inline-block;
-    margin-bottom: 10px;
-     padding: 0 10px;
-              span {
-      color: $red;
-    }
-    }
-
-  }
-}
